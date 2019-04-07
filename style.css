@@ -1,0 +1,22 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  display: block;
+  border: 1px solid black;
+  max-width: 95vw;
+  max-height: calc(100vh - 100px);
+}
